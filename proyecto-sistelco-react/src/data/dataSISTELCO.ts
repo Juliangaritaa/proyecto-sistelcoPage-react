@@ -6,8 +6,9 @@ export const dataSISTELCO = {
         description: "Empresa dedicada a brindar soluciones integrales en telecomunicaciones, ofreciendo servicios de instalación, mantenimiento y soporte técnico.",
         logo: "/images/logo/logo-sistelco.png",
         contactEmail: "",
-        contactPhone: "+57 3102420926",
-        "contactAddress": "CRA 11 # 11-48 OF 707 SOGAMOSO"
+        contactPhone: "3102420926",
+        whatsapp: "573102420926",
+        contactAddress: "CRA 11 # 11-48 OF 707 SOGAMOSO"
     }
 };
 
@@ -32,7 +33,7 @@ export const dataSISTELCOServicios = {
             { name: "Soporte técnico 24/7", icon: "Headset" },
             { name: "Sin Clausula de PERMANENCIA", icon: "Ban" },
             { name: "Sin CONTRATO", icon: "FileX" },
-            { name: "Sin INtermitencias", icon: "Signal" },
+            { name: "Sin Intermitencias", icon: "Signal" },
             { name: "Sin Cargos de RECONEXION", icon: "CreditCardX" },
             { name: "Servicio de TV en HD", icon: "MonitorPlay" },
             { name: "Venta e Instalación de Alarmas y cámaras de Seguridad", icon: "ShieldCheck" },
