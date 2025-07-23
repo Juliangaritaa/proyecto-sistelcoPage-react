@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
                     <div className='flex justify-between items-center'>
 
                         <motion.div
-                            className="text-[#1b2b4f] dark:text-[#171c27] text-lg font-bold flex items-center space-x-2"
+                            className="text-white text-lg font-bold flex items-center space-x-2"
                             variants={fadeIn}>
                             <img
                                 src={dataSISTELCO.company.logo}
@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
                                     <motion.button
                                     key={section}
                                     onClick={()=> scrollToSection(section)}
-                                    className="text-[#1b2b4f] dark:text-[#1b2b4f] hover:text-blue-600 transition-colors duration-300"
+                                    className="text-white hover:text-blue-600 transition-colors duration-300"
                                     variants={buttonHover}
                                     initial="initial"
                                     whileHover="hover"
@@ -50,11 +50,11 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
                                         animationDelay: `${index * 0.1}s`
                                     }}
                                     >
-                                        {section === 'Inicio'
-                                            ? 'Inicio'
-                                            : section === 'Servicios'
-                                            ? 'Servicios'
-                                            : 'Contacto'}
+                                        {
+                                        section === 'Inicio' ? 'Inicio' : 
+                                        section === 'Servicios' ? 'Servicios' : 
+                                        'Contacto'
+                                        }
                                     </motion.button>
                                 ))}
                             </div>

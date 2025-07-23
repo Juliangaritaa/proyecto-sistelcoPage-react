@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import Inicio from './components/Inicio';
+import Servicios from './components/Servicios';
 
 const SISTELCO: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,6 +28,7 @@ const SISTELCO: React.FC = () => {
         <Header isScrolled={isScrolled} scrollToSection={scrollToSection} />  
           <main>
             <Inicio scrollToSection={scrollToSection} />
+            <Servicios></Servicios>
         </main>
       </div>
     </>
