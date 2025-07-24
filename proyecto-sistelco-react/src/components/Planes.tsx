@@ -1,6 +1,6 @@
 import React from "react";
 import { streamingServices } from "../data/dataSISTELCO";
-import frame from "../assets/Frame.png";
+import motion from "framer-motion";
 import stockImage from "/images/logos/1366_2000.jpeg";
 
 const Planes: React.FC = () => {
