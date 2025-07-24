@@ -3,11 +3,8 @@ import { dataSISTELCOServicios } from '../data/dataSISTELCO.ts';
 import { motion } from 'framer-motion';
 import {
     fadeInUp,
-    fadeInUpDelayed,
     staggerContainer,
     staggerItem,
-    scaleIn,
-    buttonHoverAnimation
 } from '../animations/animations.tsx';
 import {
     Download,
@@ -59,7 +56,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, index }) => {
 
     return (
         <motion.div
-            className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-blue-300 min-h-[130px] flex flex-col items-center justify-center text-center group hover:-translate-y-2"
+            className="bg-white rounded-2xl p-6 transition-all duration-300 border border-gray-100 hover:border-blue-300 min-h-[130px] flex flex-col items-center justify-center text-center group hover:-translate-y-2"
             style={{
                 borderRadius: '20px',
                 boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)'
@@ -76,7 +73,6 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, index }) => {
                     height: '72px',
                     borderRadius: '15px',
                     background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #fbbf24 100%)',
-                    boxShadow: '0 8px 16px rgba(0,0,0,0.15), 0 4px 6px rgba(0,0,0,0.1)'
                 }}
             >
                 <IconComponent 
@@ -198,7 +194,6 @@ const Servicios: React.FC = () => {
                     className="bg-white rounded-3xl shadow-2xl p-8 md:p-12"
                     style={{
                         borderRadius: '32px',
-                        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.05)'
                     }}
                     variants={fadeInUp}
                     initial="initial"

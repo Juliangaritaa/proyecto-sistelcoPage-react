@@ -6,13 +6,12 @@ import {
     slideInFromRight,
     staggerContainer,
     staggerItem,
-    scaleInDelayed
 } from "../animations/animations";
 
 const Planes: React.FC = () => {
     return (
-        <section className="pt-5 px-6 py-16 min-h-screen flex items-center">
-            <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-12">
+        <section className="pt-5 px-6 py-16 min-h-screen flex items-center bg-gray-50">
+            <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-12 bg-gray-50">
                 {/* Cards de logos a la izquierda */}
                 <motion.div
                     className="w-full lg:w-1/2 flex flex-col justify-center text-center mt-12"

@@ -5,6 +5,8 @@ import Inicio from './components/Inicio';
 import Servicios from './components/Servicios';
 import Planes from './components/Planes';
 import BotonesFlotantes from './components/BotonesFlotantes';
+import Contacto from './components/Contacto';
+import Footer from './components/Footer';
 
 const SISTELCO: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,6 +34,8 @@ const SISTELCO: React.FC = () => {
             <Inicio scrollToSection={scrollToSection} />
             <Servicios />
             <Planes />
+            <Contacto />
+            <Footer />
         </main>
         <BotonesFlotantes />
       </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const dataSISTELCO = {
     company: {
         name: "SYSTELCO Telecomunicaciones",
