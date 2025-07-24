@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import Inicio from './components/Inicio';
 import Servicios from './components/Servicios';
+import Planes from './components/Planes';
 import BotonesFlotantes from './components/BotonesFlotantes';
 
 const SISTELCO: React.FC = () => {
@@ -29,7 +30,8 @@ const SISTELCO: React.FC = () => {
         <Header isScrolled={isScrolled} scrollToSection={scrollToSection} />  
           <main>
             <Inicio scrollToSection={scrollToSection} />
-            <Servicios></Servicios>
+            <Servicios />
+            <Planes />
         </main>
         <BotonesFlotantes />
       </div>

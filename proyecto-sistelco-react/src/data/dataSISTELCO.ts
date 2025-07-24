@@ -44,3 +44,16 @@ export const dataSISTELCOServicios = {
         ]
     }
 };
+
+export const streamingServices =
+{
+    planes: [
+        { name: "Netflix", logo: "/images/logos/Logonetflix.png" },
+        { name: "Disney+", logo: "/images/logos/Disney-Plus-Logo.png" },
+        { name: "Crunchyroll", logo: "/images/logos/LogoCrunchyroll.png" },
+        { name: "Prime Video", logo: "/images/logos/Logo-Prime-Video.png" },
+        { name: "Onlyfans", logo: "/images/logos/OnlyFans_logo.png" },
+        { name: "Paramount+", logo: "/images/logos/Paramount+_logo.png" },
+        { name: "Star+", logo: "/images/logos/Star_logo.png" }
+    ]
+};
