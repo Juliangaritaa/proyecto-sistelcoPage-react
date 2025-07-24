@@ -123,6 +123,7 @@ const Servicios: React.FC = () => {
                             transition={{ delay: 0.2, duration: 0.6 }}
                             whileHover={{ scale: 1.05, y: -2 }}
                         >
+                            <Zap className="w-4 h-4 mr-2" />
                             Servicios de Alta Calidad
                         </motion.div>
 

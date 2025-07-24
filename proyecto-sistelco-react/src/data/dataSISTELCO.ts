@@ -2,7 +2,7 @@ import React from "react";
 
 export const dataSISTELCO = {
     company: {
-        name: "SISTELCO Telecomunicaciones",
+        name: "SYSTELCO Telecomunicaciones",
         description: "Empresa dedicada a brindar soluciones integrales en telecomunicaciones, ofreciendo servicios de instalación, mantenimiento y soporte técnico.",
         logo: "/images/logo/logo-sistelco.png",
         contactEmail: "",
@@ -14,9 +14,9 @@ export const dataSISTELCO = {
 
 export const dataSISTELCOInicio = {
     inicio: {
-        title: "Bienvenido a SISTELCO Telecomunicaciones",
+        title: "Bienvenido a SYSTELCO Telecomunicaciones",
         subtitle: "Soluciones integrales en telecomunicaciones",
-        description: "En SISTELCO, ofrecemos servicios de instalación, mantenimiento y soporte técnico para garantizar la mejor experiencia en telecomunicaciones.",
+        description: "En SYSTELCO, ofrecemos servicios de instalación, mantenimiento y soporte técnico para garantizar la mejor experiencia en telecomunicaciones.",
         image: "/images/inicio/inicio-sistelco.jpg"
     }
 };
@@ -25,7 +25,7 @@ export const dataSISTELCOServicios = {
     servicios: {
         title: "Nuestros Servicios",
         subtitle: "Internet Fibra Óptica",
-        description: "En SISTELCO, ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades en telecomunicaciones.",
+        description: "En SYSTELCO, ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades en telecomunicaciones.",
         servicesList: [
             { name: "Descargas Ilimitadas", icon: "Download" },
             { name: "Velocidad Simétrica", icon: "Activity" },
