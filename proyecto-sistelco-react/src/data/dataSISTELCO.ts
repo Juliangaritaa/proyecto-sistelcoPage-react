@@ -15,7 +15,7 @@ export const dataSISTELCOInicio = {
         title: "Bienvenido a SYSTELCO Telecomunicaciones",
         subtitle: "Soluciones integrales en telecomunicaciones",
         description: "En SYSTELCO, ofrecemos servicios de instalación, mantenimiento y soporte técnico para garantizar la mejor experiencia en telecomunicaciones.",
-        image: "/images/inicio/inicio-sistelco.jpg"
+        image: "/images/inicio/2148456294.jpg"
     }
 };
 
