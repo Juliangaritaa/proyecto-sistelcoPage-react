@@ -14,10 +14,9 @@ const TestVelocidad: React.FC = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
                 {/* Contenedor principal con el estilo unificado */}
                 <motion.div
-                    className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 flex flex-col items-center justify-center text-center group"
+                    className="bg-white rounded-3xl p-8 md:p-12 flex flex-col items-center justify-center text-center group"
                     style={{
                         borderRadius: '32px',
-                        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.05)'
                     }}
                     variants={fadeInUp}
                     initial="initial"

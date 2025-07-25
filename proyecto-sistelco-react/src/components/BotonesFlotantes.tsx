@@ -99,7 +99,7 @@ const BotonesFlotantes: React.FC = () => {
 
             {/* CORREO ELECTRONICO */}
             <motion.a
-                href={`tel:${dataSISTELCO.company.contactEmail}`}
+                href={`mailto:${dataSISTELCO.company.contactEmail}`}
                 style={{
                     display: 'flex',
                     alignItems: 'center',
