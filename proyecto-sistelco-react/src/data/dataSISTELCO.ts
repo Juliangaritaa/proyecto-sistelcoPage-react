@@ -14,7 +14,8 @@ export const dataSISTELCOInicio = {
     inicio: {
         title: "Bienvenido a SISTEL Telecomunicaciones",
         subtitle: "Soluciones integrales en telecomunicaciones",
-        description: "En SISTEL Telecomunicaciones, ofrecemos servicios de conexión a Internet banda ancha y de canal dedicado; mediante la instalación de equipos inalámbricos  de radio enlace, microondas  y  fibra óptica de última tecnología. Brindando  un soporte técnico inmediato y un mantenimiento óptimo para garantizar la mejor conectividad y disfrutar de una experiencia sin límites en telecomunicaciones. Tenemos planes para tu hogar o empresa y de acuerdo a tu presupuesto. Contáctanos  y consulta por nuestras promociones.",
+        description: "En SISTEL Telecomunicaciones, ofrecemos servicios de conexión a Internet banda ancha y de canal dedicado; mediante la instalación de equipos inalámbricos  de radio enlace, microondas  y  fibra óptica de última tecnología. Brindando  un soporte técnico inmediato y un mantenimiento óptimo para garantizar la mejor conectividad y disfrutar de una experiencia sin límites en telecomunicaciones. Tenemos planes para tu hogar o empresa y de acuerdo a tu presupuesto. ",
+        contactoText: "Contáctanos  y consulta por nuestras promociones.",
         image: "/images/inicio/2148456294.jpg"
     }
 };

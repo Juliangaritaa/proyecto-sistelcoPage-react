@@ -83,6 +83,19 @@ const Inicio: React.FC<InicioProps> = ({ scrollToSection }) => {
                                 {dataSISTELCOInicio.inicio.description}
                             </p>
                         </motion.div>
+
+                        <motion.div
+                            className="max-w-2xl"
+                            {...heroDescriptionAnimation}
+                        >
+                            <p 
+                                className="text-lg md:text-xl text-white leading-relaxed mb-8"
+                                style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.6)' }}
+                            >
+                                {dataSISTELCOInicio.inicio.contactoText}
+                            </p>
+                        </motion.div>
+
                     </div>
                 </div>
             </div>
