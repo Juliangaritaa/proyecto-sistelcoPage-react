@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
                 <div className='flex justify-between items-center'>
 
                     <motion.div
-                        className="text-white text-lg font-bold flex items-center space-x-2"
+                        className="text-black dark:text-white text-lg font-bold flex items-center space-x-2"
                         variants={fadeIn}>
                         <img
                             src={dataSISTELCO.company.logo}
@@ -62,7 +62,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
                                 href="https://kanela.distriserver.net:2096/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-white hover:text-blue-600 transition-colors duration-300"
+                                className="text-black dark:text-white hover:text-blue-600 transition-colors duration-300"
                                 variants={buttonHover}
                                 initial="initial"
                                 whileHover="hover"
