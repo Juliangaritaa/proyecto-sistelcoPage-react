@@ -23,7 +23,7 @@ export const dataSISTELCOServicios = {
     servicios: {
         title: "Nuestros Servicios",
         subtitle: "Internet Fibra Óptica",
-        description: "En SISTEL, ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades en telecomunicaciones.",
+        description: "En SISTEL Telecomunicaciones, ofrecemos servicios de conexión a Internet banda ancha y de canal dedicado; mediante la instalación de equipos inalámbricos  de radio enlace, microondas  y  fibra óptica de última tecnología. Brindando  un soporte técnico inmediato y un mantenimiento óptimo para garantizar la mejor conectividad y disfrutar de una experiencia sin límites en telecomunicaciones. Tenemos planes para tu hogar o empresa y de acuerdo a tu presupuesto. Contáctanos  y consulta por nuestras promociones.",
         servicesList: [
             { name: "Descargas Ilimitadas", icon: "Download" },
             { name: "Velocidad Simétrica", icon: "Activity" },
