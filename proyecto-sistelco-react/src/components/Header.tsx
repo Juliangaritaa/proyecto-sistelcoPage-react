@@ -122,11 +122,11 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
             {/* Menú móvil - Posicionado fuera del nav para evitar superposiciones */}
             {isMobile && isMobileOpen && (
                 <>
-                    {/* Overlay para cerrar el menú al hacer clic fuera */}
+                    {/* Overlay transparente para cerrar el menú al hacer clic fuera */}
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="fixed inset-0 bg-black bg-opacity-50 z-40"
+                        className="fixed inset-0 bg-transparent z-40"
                         onClick={() => setIsMobileOpen(false)}
                     />
                     
