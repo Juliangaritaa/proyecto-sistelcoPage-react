@@ -8,6 +8,7 @@ import BotonesFlotantes from './components/BotonesFlotantes';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import TestVelocidad from './components/TestVelocidad';
+import PQR from './components/UserForm';
 
 const SISTELCO: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,6 +38,7 @@ const SISTELCO: React.FC = () => {
             <Planes />
             <TestVelocidad />
             <Contacto />
+            {/* <PQR /> */}
             <Footer />
         </main>
         <BotonesFlotantes />

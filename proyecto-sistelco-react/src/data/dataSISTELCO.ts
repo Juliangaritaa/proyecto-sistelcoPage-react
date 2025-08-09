@@ -4,8 +4,10 @@ export const dataSISTELCO = {
         description: "Empresa dedicada a brindar soluciones integrales en telecomunicaciones, ofreciendo servicios de instalación, mantenimiento y soporte técnico.",
         logo: "/images/logo/logo-sistelco.png",
         contactEmail: "servicioalcliente@internetcolombia.net",
+        pruebaemail: "julian.angaria0810@gmail.com",
         contactPhone: "3102420926",
         whatsapp: "573102420926",
+        whatsapp2: "573052494823",
         contactAddress: "CRA 11 # 11-48 OF 707 SOGAMOSO"
     }
 };
@@ -59,3 +61,32 @@ export const streamingServices =
         { name: "HBOMax", logo: "/images/logos/HBO-Max-Logo.png" }
     ]
 };
+
+export const tiposSolicitud = [
+    { value: 'peticion', label: 'Petición' },
+    { value: 'queja', label: 'Queja' },
+    { value: 'reclamo', label: 'Reclamo' }
+  ];
+
+export const tiposDetallados = [
+    { value: 'A1', label: 'A1. Modificación condiciones acordadas' },
+    { value: 'A5', label: 'A5. Datos personales' },
+    { value: 'B1', label: 'B1. Imposibilidad de terminación del contrato' },
+    { value: 'C5', label: 'C5. Calidad del servicio' },
+    { value: 'D1', label: 'D1. No disponibilidad del servicio' },
+    { value: 'D4', label: 'D4. Intermitencia' },
+    { value: 'E1', label: 'E1. Error en la factura o cobro o descuento injustificado' },
+    { value: 'E2', label: 'E2. Incremento Tarifario' },
+    { value: 'Otros', label: 'Otros' }
+  ];
+
+export const mediosAtencion = [
+    { value: 'presencial', label: 'Presencial' },
+    { value: 'telefonica', label: 'Línea telefónica' },
+    { value: 'whatsapp', label: 'WhatsApp' }
+  ];
+
+export const relacionesEmpresa = [
+    { value: 'cliente', label: 'Cliente' },
+    { value: 'funcionario', label: 'Funcionario SISTEL' }
+  ];

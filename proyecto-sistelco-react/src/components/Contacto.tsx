@@ -7,7 +7,7 @@ import {
     staggerContainer,
     staggerItem
 } from '../animations/animations.tsx';
-import { MessageCircle, Phone, MapPin, Zap } from 'lucide-react';
+import { MessageCircle, Phone, MapPin, Zap, Mail } from 'lucide-react';
 
 const Contacto: React.FC = () => {
     return (
@@ -123,6 +123,7 @@ const Contacto: React.FC = () => {
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800 mb-2">WhatsApp</h3>
                             <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp}</p>
+                            <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp2}</p>
                             <p className="text-sm text-gray-500">Atención inmediata</p>
                         </motion.div>
 

@@ -18,6 +18,8 @@ const Footer: React.FC = () => {
           whileInView="visible"
         >
           © 2025 {dataSISTELCO.company.name}. 
+          <p></p>
+          {dataSISTELCO.company.contactEmail}
           <p> Boyacá - Colombia. </p>
         </motion.p>
 

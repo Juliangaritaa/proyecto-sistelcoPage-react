@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
 
                     <div className='flex items-center gap-6'>
                         <div className='hidden md:flex gap-6'>
-                            {['Inicio', 'Servicios', 'TestVelocidad', 'Contacto'].map((section, index) => (
+                            {['Inicio', 'Servicios', 'TestVelocidad', 'Contacto', 'PQR'].map((section, index) => (
                                 <motion.button
                                     key={section}
                                     onClick={() => scrollToSection(section)}
@@ -53,6 +53,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, scrollToSection }) => {
                                         section === 'Inicio' ? 'Inicio' :
                                             section === 'Servicios' ? 'Servicios' :
                                                 section === 'TestVelocidad' ? 'Test de Velocidad' :
+                                                section === 'PQR' ? 'PQR' :
                                                     'Contacto'
                                     }
                                 </motion.button>
