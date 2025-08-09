@@ -35,7 +35,7 @@ const Contacto: React.FC = () => {
                     </motion.div>
 
                     {/* Título principal */}
-                    <motion.h1 
+                    <motion.h1
                         className="text-4xl md:text-4xl font-bold text-gray-900 mb-3"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const Contacto: React.FC = () => {
                     </motion.h1>
 
                     {/* Subtítulo */}
-                    <motion.h3 
+                    <motion.h3
                         className="text-xl md:text-2xl font-semibold text-gray-600 mb-4"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -55,17 +55,17 @@ const Contacto: React.FC = () => {
                     </motion.h3>
 
                     {/* Descripción */}
-                    <motion.p 
+                    <motion.p
                         className="text-gray-600 max-w-3xl mx-auto text-lg"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8, duration: 0.6 }}
                     >
-                        Conectándote con el mundo a través de la mejor tecnología y un servicio excepcional. 
+                        Conectándote con el mundo a través de la mejor tecnología y un servicio excepcional.
                         Nos especializamos en brindar servicios de telecomunicaciones de alta calidad.
                     </motion.p>
 
-                    <motion.div 
+                    <motion.div
                         className="w-24 h-1 bg-blue-500 mx-auto mt-6 rounded-full"
                         initial={{ width: 0, opacity: 0 }}
                         whileInView={{ width: 96, opacity: 1 }}
@@ -112,18 +112,17 @@ const Contacto: React.FC = () => {
                                     boxShadow: '0 8px 16px rgba(37, 211, 102, 0.3), 0 4px 6px rgba(0,0,0,0.1)'
                                 }}
                             >
-                                <MessageCircle 
-                                    className="text-white" 
+                                <MessageCircle
+                                    className="text-white"
                                     size={32}
-                                    style={{ 
+                                    style={{
                                         filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
                                         strokeWidth: 2
-                                    }} 
+                                    }}
                                 />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800 mb-2">WhatsApp</h3>
                             <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp}</p>
-                            <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp2}</p>
                             <p className="text-sm text-gray-500">Atención inmediata</p>
                         </motion.div>
 
@@ -146,17 +145,17 @@ const Contacto: React.FC = () => {
                                     boxShadow: '0 8px 16px rgba(59, 130, 246, 0.3), 0 4px 6px rgba(0,0,0,0.1)'
                                 }}
                             >
-                                <Phone 
-                                    className="text-white" 
+                                <Phone
+                                    className="text-white"
                                     size={32}
-                                    style={{ 
+                                    style={{
                                         filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
                                         strokeWidth: 2
-                                    }} 
+                                    }}
                                 />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800 mb-2">Teléfono</h3>
-                            <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.contactPhone}</p>
+                            <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp2}</p>
                             <p className="text-sm text-gray-500">Soporte técnico</p>
                         </motion.div>
 
@@ -179,23 +178,58 @@ const Contacto: React.FC = () => {
                                     boxShadow: '0 8px 16px rgba(220, 38, 38, 0.3), 0 4px 6px rgba(0,0,0,0.1)'
                                 }}
                             >
-                                <MapPin 
-                                    className="text-white" 
+                                <MapPin
+                                    className="text-white"
                                     size={32}
-                                    style={{ 
+                                    style={{
                                         filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
                                         strokeWidth: 2
-                                    }} 
+                                    }}
                                 />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800 mb-2">Dirección</h3>
                             <p className="text-gray-600 font-medium mb-1 text-sm leading-tight">{dataSISTELCO.company.contactAddress}</p>
                             <p className="text-sm text-gray-500">Visítanos</p>
                         </motion.div>
+
+                        {/* Nueva Card Personalizada */}
+                        <motion.div
+                            className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-pink-300 min-h-[160px] flex flex-col items-center justify-center text-center group hover:-translate-y-2"
+                            style={{
+                                borderRadius: '20px',
+                                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)'
+                            }}
+                            variants={staggerItem}
+                        >
+                            <div
+                                className="w-18 h-18 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
+                                style={{
+                                    width: '72px',
+                                    height: '72px',
+                                    borderRadius: '15px',
+                                    background: 'linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)',
+                                    boxShadow: '0 8px 16px rgba(236, 72, 153, 0.3), 0 4px 6px rgba(0,0,0,0.1)'
+                                }}
+                            >
+                                <Mail
+                                    className="text-white"
+                                    size={32}
+                                    style={{
+                                        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
+                                        strokeWidth: 2
+                                    }}
+                                />
+                            </div>
+                            <h3 className="text-lg font-semibold text-gray-800 mb-2">Correo</h3>
+                            <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.contactEmail}</p>
+                            <p className="text-sm text-gray-500">Envíanos un mensaje</p>
+                        </motion.div>
+
+
                     </motion.div>
 
                     {/* Sección de características destacadas */}
-                    <motion.div 
+                    <motion.div
                         className="flex flex-wrap justify-center gap-4 mb-12"
                         variants={slideInFromLeft}
                         initial="initial"
@@ -207,12 +241,12 @@ const Contacto: React.FC = () => {
                             { number: '24/7', label: 'Soporte Disponible', color: '#3b82f6' },
                             { number: '99%', label: 'Tiempo de Actividad', color: '#fbbf24' }
                         ].map((stat, index) => (
-                            <motion.div 
+                            <motion.div
                                 key={index}
                                 className="text-center py-6"
                                 variants={staggerItem}
                             >
-                                <motion.div 
+                                <motion.div
                                     className="text-4xl md:text-5xl font-bold mb-2"
                                     style={{ color: stat.color }}
                                     initial={{ scale: 0 }}

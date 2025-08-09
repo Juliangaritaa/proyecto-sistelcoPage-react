@@ -37,8 +37,8 @@ const SISTELCO: React.FC = () => {
             <Servicios />
             <Planes />
             <TestVelocidad />
+            <PQR /> 
             <Contacto />
-            {/* <PQR /> */}
             <Footer />
         </main>
         <BotonesFlotantes />
