@@ -155,6 +155,7 @@ const Contacto: React.FC = () => {
                                 />
                             </div>
                             <h3 className="text-lg font-semibold text-gray-800 mb-2">Teléfono</h3>
+                            <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp}</p>
                             <p className="text-gray-600 font-medium mb-1">{dataSISTELCO.company.whatsapp2}</p>
                             <p className="text-sm text-gray-500">Soporte técnico</p>
                         </motion.div>
@@ -237,7 +238,7 @@ const Contacto: React.FC = () => {
                         viewport={{ once: true }}
                     >
                         {[
-                            { number: '500+', label: 'Clientes Satisfechos', color: '#1e3a8a' },
+                            { number: '1000+', label: 'Clientes Satisfechos', color: '#1e3a8a' },
                             { number: '24/7', label: 'Soporte Disponible', color: '#3b82f6' },
                             { number: '99%', label: 'Tiempo de Actividad', color: '#fbbf24' }
                         ].map((stat, index) => (
